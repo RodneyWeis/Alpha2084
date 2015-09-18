@@ -34,7 +34,7 @@ x_mv_axis = 0;
 y_mv_axis = 0;
 deadzone = 0.25;
 
-player_speed = 4;
+player_speed = room_speed / 20;
 </string>
           </argument>
         </arguments>

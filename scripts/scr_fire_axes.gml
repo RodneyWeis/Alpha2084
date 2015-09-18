@@ -5,7 +5,7 @@ var y_fr_axis = argument1;
 var fr_deadzone = argument2;
 var fr_magnitude = point_distance(0, 0, x_fr_axis, y_fr_axis);
 
-var fire_delay = 8;
+var fire_delay = room_speed / 7.5;
 
 // Fire weapon
 

@@ -11,6 +11,8 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_solid</sprite>
+    <sprite>sprites\spr_grunt</sprite>
+    <sprite>sprites\spr_electrode_alpha</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,9 +25,14 @@
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_solid</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_grunt</object>
+    <object>objects\obj_electrode_alpha</object>
+    <object>objects\obj_game</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test_level</room>
+    <room>rooms\rm_test_beta</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
