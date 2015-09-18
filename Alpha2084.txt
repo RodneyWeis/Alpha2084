@@ -9,27 +9,28 @@ Notes from https://www.youtube.com/watch?v=90GuCjmNzVI
 Enemy Types (36:00 - 57:00)
 
 Passive:  
-Electrodes
+Electrodes 36:00
 	- Different types on different levels
 	- Universally deadly to player
 	- Can be destroyed by shooting (? Exceptions ?)
 	- Static, unmoving
 
 Active: 
-Grunts
+Grunts 37:00
 	- Simple hunting behaviour
 	- Only interested in player
 	- Only weapon is contact
 	- Destroyed by shooting
+	- Large grunt wave on levels ending in 9 (and 4?)  Grunt x 128, player may be mobbed
 
-Hulks
+Hulks 43:00
 	- Random(ish) movement
 	- Alternates between wandering, hunting human family
 	- Indestructable
 	- May be fended off / influenced by shooting (knockback effect)
 	- Destroys human family upon contact
 
-Spheroid / Enforcer / Sparks
+Spheroid / Enforcer / Spark 45:00
 	- Spheroid spawns enforcers (how many until it disappears?)
 	- Spheroid is deadly to player, may be shot
 	- Oscillating animation makes spheroid more difficult to hit
@@ -40,6 +41,40 @@ Spheroid / Enforcer / Sparks
 	- Sparks have variable speed - the further from the player when created, the higher their velocity (acceleration)
 	- Sparks do not disappear when striking a wall, but rather "slide" along the surface for a short time, becoming effective obstacles
 
-Brains / Progs / Cruise Missiles
-	- 
+Brain / Prog / Cruise Missile 51:00
+	- Brains search out human family members
+	- Humans that are touched are reprogrammed into Progs, which then attack the player
+	- "Mikey Bug" existed whereby brains would preferentially seek Mikey human characters at the beginning of the wave (54:00)
+	- Brains shoot an indirect "cruise missile" that seeks out the player via a circuitous route
+	- Appear on levels ending in 5 and 0
+	- Large opportunity for player to score heavily, due to abundance of human family members
+
+Quark / Tank / Cannonball 56:00 
+	- Quarks are similar to spheroids - square instead of round, but still spawn enemies (quantity?)
+	- Quarks oscillate in a manner similar to spheroids
+	- Tanks maintain distance from player
+	- Tanks shoot "cannonballs" (unsure of exact term) - round projectiles
+	- Cannonballs may be aimed directly at player, or "banked" off a wall in a deliberate, aimed fashion
+
+=======================================
+
+Human Family (Discussed throughout, see 42:00)
+	- Three distinct characters; Mommy, Daddy and Mikey
+	- Functionally identical, apart from Mikey bug noted above
+	- Progressive reward system for saving family members:
+		- Each level / player death the reward resets
+		- Rescued humans are worth 1000, 2000, 3000, 4000 and 5000 points
+		- Subsequent humans are worth an additional 5000 points, until the next level or player death
+	- As noted above, spawned in large numbers on Brain levels (5, 0)
+
+=======================================
+
+General Considerations
+
+Player Lives
+	- Player has a set number of initial lives
+	- Player receives a bonus life each 25000 points
+	- Rescuing 7 human family members yields 28000 points, with each subsequent 5 family members yielding an additional 25000 points
+	- The player loses a life upon contact with any enemy type, including electrodes, progs and projectiles
+
 
