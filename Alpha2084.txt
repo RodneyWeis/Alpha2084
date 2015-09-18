@@ -1,0 +1,45 @@
+Robotron 2084
+
+Alpha 2084
+
+20150918
+
+Notes from https://www.youtube.com/watch?v=90GuCjmNzVI
+
+Enemy Types (36:00 - 57:00)
+
+Passive:  
+Electrodes
+	- Different types on different levels
+	- Universally deadly to player
+	- Can be destroyed by shooting (? Exceptions ?)
+	- Static, unmoving
+
+Active: 
+Grunts
+	- Simple hunting behaviour
+	- Only interested in player
+	- Only weapon is contact
+	- Destroyed by shooting
+
+Hulks
+	- Random(ish) movement
+	- Alternates between wandering, hunting human family
+	- Indestructable
+	- May be fended off / influenced by shooting (knockback effect)
+	- Destroys human family upon contact
+
+Spheroid / Enforcer / Sparks
+	- Spheroid spawns enforcers (how many until it disappears?)
+	- Spheroid is deadly to player, may be shot
+	- Oscillating animation makes spheroid more difficult to hit
+	- Enforcer shoots sparks at player
+	- Enforcer does not animate (at all?  floating enemy)
+	- Sparks are directed at player's position
+	- Sparks have curvature to their path that makes them difficult to track accurately
+	- Sparks have variable speed - the further from the player when created, the higher their velocity (acceleration)
+	- Sparks do not disappear when striking a wall, but rather "slide" along the surface for a short time, becoming effective obstacles
+
+Brains / Progs / Cruise Missiles
+	- 
+
