@@ -14,6 +14,7 @@
     <sprite>sprites\spr_grunt</sprite>
     <sprite>sprites\spr_electrode_alpha</sprite>
     <sprite>sprites\spr_hulk</sprite>
+    <sprite>sprites\spr_mommy</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -33,6 +34,8 @@
     <object>objects\obj_hulk</object>
     <object>objects\obj_enemy_mortal</object>
     <object>objects\obj_enemy_immortal</object>
+    <object>objects\obj_human</object>
+    <object>objects\obj_mommy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test_level</room>
