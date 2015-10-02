@@ -92,6 +92,14 @@ if (canFire) {
    scr_fire_axes(x_fr_axis, y_fr_axis, deadzone);
 }
 
+if (btn_select) {
+    game_restart();
+}
+
+if (btn_start) {
+    game_end();
+}
+
 </string>
           </argument>
         </arguments>
